@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+@import url('https://use.fontawesome.com/releases/v6.5.1/css/all.css');
+
+body{
+  background-color: #EFD595;
+  color: rgb(40, 40, 40);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: lighter;
+}
+h1, h2 {
+  font-weight: 1000;
+  font-family: 'Poppins', sans-serif;
+}
+h1 {
+    font-size: 32px;
+}
+h2 {
+  font-size: 24px;
+  color: #f4a261;
+}
+a {
+    text-decoration: none;
+    color: #1A6158;
+    font-weight: bold;
+}
+a:hover {
+  color: #f4a261;
+}
+
+/* Customs */
+
+.card-white {
+  background: #65A1B8;
+  border-radius: 50px;
+  border: 1px solid lightgrey;
+  box-shadow: 0px 10px 30px rgba(0,0,0,.1);
+  padding: 32px;
+  width: 700px;
+  margin: 24px auto;
+}
+.img-circle {
+  overflow: hidden;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  width : 100px;
+  height : 100px;
+}
+.btn-blue {
+  background-color: #1A6158;
+  color: white;
+  border-radius: 4px;
+  padding: 16px 24px;
+  border: 1px solid transparent;
+}
+.btn-blue:hover {
+  border: 1px solid #1A6158;
+  color: #1A6158;
+  background-color: white;
+}
+.list-inline {
+  list-style: none;
+  padding-left: 0px
+}
+.list-inline li {
+  display: inline-block;
+  padding: 0px 16px
+}
+.text-center {
+  text-align: center;
+}
+
+/*Adjustement design*/
+#intro p {
+  margin-bottom: 40px;
+}
+#footer a {
+  font-size: 60px;
+}
+
+/* responsive */
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
